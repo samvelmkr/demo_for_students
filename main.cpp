@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
     }
 
     for(int i = 0; i <= 10; i++) {
-        std::cout << i << " " << i*i << std::endl;
+        std::cout << i << "^2=" << i*i << std::endl;
     }
     return ZERO;
 }
